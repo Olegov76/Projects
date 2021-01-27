@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blanchard</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="choices.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/simplebar@latest/dist/simplebar.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+</head>
+
+<body>
+    <section>
+        <header class="header">
+        <div  class="nav">
+            <div class="container flex">
+                <img src="img/logo.svg" alt="logo">
+                <nav class="header-menu">
+                <ul class="menu-nav">
+                    <li><a class="menu" href="#abaut">О нас</a></li>
+                    <li><a class="menu" href="#gallery">Галерея</a></li>
+                    <li><a class="menu" href="#catalog">Каталог</a></li>
+                    <li><a class="menu" href="#events">События</a></li>
+                    <li><a class="menu" href="#edition">Издания</a></li>
+                    <li><a class="menu" href="#projects">Проекты</a></li>
+                    <li><a class="menu" href="#contacts">Контакты</a></li>
+                </ul>
+            </nav>
+                    <a class="enter-text" href="#"> Войти</a>
+            </div>
+        </div>
+            <div class="header2">
+            <div class=" container flex">
+                <nav>
+                <ul class="flex tabs__caption">
+                    <li><button class="nav2" data-path="one"> Реализм</button></li>
+                    <li><button class="nav2" data-path="too"> Импрессионизм</button></li>
+                    <li><button class="nav2" data-path="three"> Постимпрессионизм</button></li>
+                    <li><button class="nav2" data-path="four"> Авангард</button></li>
+                    <li><button class="nav2" data-path="five"> Футуризм</button></li>
+                </ul>
+            </nav>
+                <form class="search-form" action="#">
+                    <input class="search" type="text" name="q" placeholder="Поиск по сайту">
+                    <button class="search-btn" type="submit"></button>
+                </form>
+            </div>
+        </div>
+        </header>
+        
+        <div class="swiper-container swiper1">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                    <div class="bg-img"></div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="bg-img2"></div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="bg-img3"></div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+                <div class="castomscroll-box tabs__content tabs__content-activ" data-target="one">
+                    <div class="castomscroll" data-simplebar>
+                        <div class="box realism-box"><a class="realism" href="">Тинторетто</a></div>
+                        <div class="box realism-box2"><a class="realism" href="">Фридрих</a></div>
+                        <div class="box realism-box3"><a class="realism" href="">Леонардо</a></div>
+                        <div class="box realism-box4"><a class="realism" href="">Верроккьо</a></div>
+                    </div>
+                </div>
+                <div class="castomscroll-box2 tabs__content tabs__content-activ" data-target="too">
+                    <div class="castomscroll" data-simplebar>
+                        <div class="box ismpressionism-box"><a class="realism" href="">Моне</a></div>
+                        <div class="box ismpressionism-box2"><a class="realism" href="">Сислей</a></div>
+                        <div class="box ismpressionism-box3"><a class="realism" href="">Мане</a></div>
+                        <div class="box ismpressionism-box4"><a class="realism" href="">Ренуар</a></div>
+                    </div>
+                </div>
+                <div class="castomscroll-box3 tabs__content tabs__content-activ" data-target="three">
+                    <div class="castomscroll" data-simplebar>
+                        <div class="box post-box"><a class="realism" href="">Ван Гог</a></div>
+                        <div class="box post-box2"><a class="realism" href="">Сезанн</a></div>
+                        <div class="box post-box3"><a class="realism" href="">Гоген</a></div>
+                        <div class="box post-box4"><a class="realism" href="">Сёра</a></div>
+                    </div>
+                </div>
+                <div class="castomscroll-box4 tabs__content tabs__content-activ" data-target="four">
+                    <div class="castomscroll" data-simplebar>
+                        <div class="box vanguard-box"><a class="realism" href="">Кандинский</a></div>
+                        <div class="box vanguard-box2"><a class="realism" href="">Маринетти</a></div>
+                        <div class="box vanguard-box3"><a class="realism" href="">Малевич</a></div>
+                        <div class="box vanguard-box4"><a class="realism" href="">Пикассо</a></div>
+                    </div>
+                </div>
+                <div class="castomscroll-box5  tabs__content tabs__content-activ" data-target="five">
+                    <div class="castomscroll" data-simplebar>
+                        <div class="box futurism-box"><a class="realism" href="">Карра</a></div>
+                        <div class="box futurism-box2"><a class="realism" href="">Прателла</a></div>
+                        <div class="box futurism-box3"><a class="realism" href="">Северини</a></div>
+                        <div class="box futurism-box4"><a class="realism" href="">Балла</a></div>
+                    </div>
+                </div>
+        </div>
+        <div class="main-text">
+            <h1>Прикоснитесь к прекрасному</h1>
+            <p class="main-small-text">Мы вынуждены отталкиваться от того, что реализация намеченных плановых
+                заданий создаёт предпосылки для новых предложений.</p>
+            <a href="#form"><button class="main-btn">Подписаться на рассылку</button></a>
+        </div>
+    </section>
+    <section id="abaut">
+        <div class="container">
+            <h2>О нас</h2>
+            <p class=" text-p">Ясность нашей позиции очевидна: семантический разбор внешних противодействий однозначно
+                определяет каждого участника как способного принимать собственные решения касаемо распределения
+                внутренних
+                резервов и ресурсов. Не следует, однако, забывать, что высококачественный прототип будущего проекта
+                влечет
+                за собой процесс внедрения и модернизации модели развития. Повседневная практика показывает, что высокое
+                качество позиционных исследований создаёт необходимость включения в производственный план целого ряда
+                внеочередных мероприятий с учётом комплекса распределения внутренних резервов и ресурсов. В рамках
+                спецификации современных стандартов, действия представителей оппозиции набирают популярность среди
+                определенных слоев населения, а значит, должны быть разоблачены.</p>
+        </div>
+    </section>
+    <section class="gallery" id="gallery">
+        <div class="baner2">
+            <div class="container">
+                <div class="flex">
+                    <div class="baner2-left">
+                        <h2 class="h2-over">Галерея</h2>
+                        <p class="p-over">Фильтровать по:</p>
+                        <select class="filter" name="select">
+                            <option value="Автор">Автор</option>
+                            <option value="Направление">Направление</option>
+                            <option value="Техника">Техника</option>
+                        </select>
+                        <p class="p-over baner2-text">Вам предоставляется 10 бесплатных скачиваний. Для увеличения
+                            количества скачиваний <a href="">авторизуйтесь</a> , либо воспользуйтесь лицензией. </p>
+                    </div>
+
+                    <div class="swiper-container2">
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper">
+                            <!-- Slides -->
+                            <div class="swiper-slide">
+                                <div class="slaid-box">
+                                    <div class="gallery-slaid gallery-slaid1-1">
+                                        <div class="increase">
+                                            <div class="increase-icon"></div>
+                                        </div>
+                                    </div>
+                                    <div class="gallery-slaid gallery-slaid1-2">
+                                        <div class="increase">
+                                            <div class="increase-icon"></div>
+                                        </div>
+                                    </div>
+                                    <div class="gallery-slaid gallery-slaid1-3">
+                                        <div class="increase">
+                                            <div class="increase-icon"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slaid-box1">
+                                    <div class="gallery-slaid gallery-slaid1-4">
+                                        <div class="increase">
+                                            <div class="increase-icon"></div>
+                                        </div>
+                                    </div>
+                                    <div class="gallery-slaid gallery-slaid1-5">
+                                        <div class="increase">
+                                            <div class="increase-icon"></div>
+                                        </div>
+                                    </div>
+                                    <div class="gallery-slaid gallery-slaid1-6">
+                                        <div class="increase">
+                                            <div class="increase-icon"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>s
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="catalog" id="catalog">
+        <div class="container">
+            <div class="flex h2-flag">
+                <h2 class="catalog-h2">Каталог</h2>
+                <div class="flex" id="flag">
+                    <button class="flag-box .flag-box-activ"><img class="img-box" src="img/france-icon.svg"
+                            alt="фр"></button>
+                    <button class="flag-box .flag-box-activ"><img class="img-box" src="img/germany-icon.svg"
+                            alt="фрг"></button>
+                    <button class="flag-box flag-box-activ"><img class="img-box" src="img/italian-icon.svg"
+                            alt="итл"></button>
+                    <button class="flag-box .flag-box-activ"><img class="img-box" src="img/russia-icon.svg"
+                            alt="рф"></button>
+                    <button class="flag-box .flag-box-activ"><img class="img-box" src="img/belgium-icon.svg"
+                            alt="блг"></button>
+                </div>
+            </div>
+            <p class="text-p">Акционеры крупнейших компаний, которые представляют собой яркий пример
+                континентально-европейского типа политической культуры, будут объявлены нарушающими общечеловеческие
+                нормы этики и морали. Являясь всего лишь частью общей картины, стремящиеся вытеснить традиционное
+                производство, нанотехнологии и по сей день остаются уделом либералов, которые жаждут быть функционально
+                разнесены на независимые элементы. </p>
+            <div class="flex">
+                <div>
+                    <div class="artist"></div>
+                    <h3>Доменико Гирландайо</h3>
+                    <p class="transparent">2 июня 1448 — 11 января 1494</p>
+                    <p class="p-artist">Один из ведущих флорентийских художников Кватроченто, основатель художественной
+                        династии, которую продолжили его брат Давид и сын Ридольфо. Глава художественной мастерской, где
+                        юный
+                        Микеланджело в течение года овладевал профессиональными навыками. Автор фресковых циклов, в
+                        которых
+                        выпукло, со всевозможными подробностями показана домашняя жизнь библейских персонажей (в их роли
+                        выступают знатные граждане Флоренции в костюмах того времени).</p>
+                </div>
+
+                <div id="accordeon">
+                    <div class="acc-head flex" id="icon">
+                        <div> C 1400 по 1499 гг.</div>
+                        <div class="acc-icon .acc-icon-activ"></div>
+                    </div>
+                    <div class="acc-body">
+                        <div class="flex">
+                            <div class="actist-list">
+                                <a class="actist-name" href="">Бенедетто ди Биндо Бергоньоне,</a>
+                                <a class="actist-name" href="">Амброджо Биссоло,</a>
+                                <a class="actist-name" href="">Франческо Амброджо Больтраффио,</a>
+                                <a class="actist-name" href="">Джованни Бонсиньори,</a>
+                                <a class="actist-name" href="">Франческо Боттичини,</a>
+                                <a class="actist-name" href="">Боттичини,</a>
+                                <a class="actist-name" href="">Рафаэллo<br> Брамантино Бреа,</a>
+                                <a class="actist-name" href="">Людовико<br>Бьяджо д’Антонио Туччи</a>
+                            </div>
+                            <div class="actist-list">
+                                <a class="actist-name" href="">Веккьетта</a><br>
+                                <a class="actist-name" href="">Андреа Верроккьo</a>
+                                <a class="actist-name activ" href="">Доменико Гирландайо</a>
+                                <a class="actist-name" href="">Беноццо Гоццоли</a>
+                                <a class="actist-name" href="">Граначчи,</a>
+                                <a class="actist-name" href="">Франческо</a>
+                                <a class="actist-name" href="">Грегорио ди Чекко</a>
+                                <a class="actist-name" href="">Джованни да Удине</a>
+                                <a class="actist-name" href="">Джованни ди Паоло</a>
+                                <a class="actist-name" href="">Джорджоне</a>
+                            </div>
+                            <div class="actist-list">
+                                <a class="actist-name" href="">Парентино,</a>
+                                <a class="actist-name" href="">Бернардо</a>
+                                <a class="actist-name" href="">Пезеллино</a><br>
+                                <a class="actist-name" href="">Пьетро Перуджино</a>
+                                <a class="actist-name" href="">Перуцци,</a>
+                                <a class="actist-name" href="">Бальдассаре</a>
+                                <a class="actist-name" href="">Пизанелло</a><br>
+                                <a class="actist-name" href="">Пинтуриккьо</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="acc-head flex">
+                        <div> C 1500 по 1599 гг.</div>
+                        <div class="acc-icon"></div>
+                    </div>
+                    <div class="acc-body">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum saepe ex nesciunt, quidem quis
+                        illo
+                        cupiditate, quod maxime. Tenetur, ex quos. Magnam quasi iure facere minus velit voluptate
+                        accusamus
+                        hic!
+                    </div>
+                    <div class="acc-head flex">
+                        <div> C 1600 по 1699 гг.</div>
+                        <div class="acc-icon"></div>
+                    </div>
+                    <div class="acc-body">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum saepe ex nesciunt, quidem quis
+                        illo
+                        cupiditate, quod maxime. Tenetur, ex quos. Magnam quasi iure facere minus velit voluptate
+                        accusamus
+                        hic!
+                    </div>
+                    <div class="acc-head flex">
+                        <div> C 1700 по 1799 гг.</div>
+                        <div class="acc-icon"></div>
+                    </div>
+                    <div class="acc-body">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum saepe ex nesciunt, quidem quis
+                        illo
+                        cupiditate, quod maxime. Tenetur, ex quos. Magnam quasi iure facere minus velit voluptate
+                        accusamus
+                        hic!
+                    </div>
+                    <div class="acc-head flex">
+                        <div> C 1800 по 1899 гг.</div>
+                        <div class="acc-icon"></div>
+                    </div>
+                    <div class="acc-body">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum saepe ex nesciunt, quidem quis
+                        illo
+                        cupiditate, quod maxime. Tenetur, ex quos. Magnam quasi iure facere minus velit voluptate
+                        accusamus
+                        hic!
+                    </div>
+                    <div class="acc-head flex">
+                        <div> C 1900 по 1999 гг.</div>
+                        <div class="acc-icon"></div>
+                    </div>
+                    <div class="acc-body">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum saepe ex nesciunt, quidem quis
+                        illo
+                        cupiditate, quod maxime. Tenetur, ex quos. Magnam quasi iure facere minus velit voluptate
+                        accusamus
+                        hic!
+                    </div>
+                    <div class="acc-head flex">
+                        <div> C 2000 г.
+                        </div>
+                        <div class="acc-icon"></div>
+                    </div>
+                    <div class="acc-body">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum saepe ex nesciunt, quidem quis
+                        illo
+                        cupiditate, quod maxime. Tenetur, ex quos. Magnam quasi iure facere minus velit voluptate
+                        accusamus
+                        hic!
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="events" id="events">
+        <div class="container">
+            <h2>События</h2>
+            <div class="ev-box-all">
+                <div>
+                    <div class="events-box">
+                        <div class="events-box-foto1"></div>
+                        <p class="transparent alain">Музей им. Щусева<br>
+                            с 20 марта по 30 апреля</p>
+                        <p class="event-header">Книжная гравюра в живом восприятии</p>
+                        <p class="event-p">Один из ведущих флорентийских художников Кватроченто, основатель
+                            художественной
+                            династии, которую продолжили его брат Давид и сын Ридольфо. Глава художественной мастерской,
+                            где
+                            юный Микеланджело.</p>
+                    </div>
+                    <a class="event-link" href="">Подробнее</a>
+                </div>
+                <div>
+                    <div class="events-box">
+                        <div class="events-box-foto2"></div>
+                        <p class="transparent alain">ММОМА<br>24 марта 19:00</p>
+                        <p class="event-header">«Открытая дискуссия». Дмитрий Петров и Сергей Ильин.</p>
+                        <p class="event-p">Высокий уровень вовлечения представителей целевой аудитории является четким
+                            доказательством простого факта: постоянный количественный рост и сфера нашей активности
+                            представляет собой интересный эксперимент проверки новых принципов формирования...</p>
+                    </div>
+                    <a class="event-link" href="">Подробнее</a>
+                </div>
+                <div>
+                    <div class="events-box">
+                        <div class="events-box-foto3"></div>
+                        <p class="transparent alain">Еврейский музей<br>
+                            с 31 марта по 21 апреля</p>
+                        <p class="event-header">Выставка «Формация 2020»</p>
+                        <p class="event-p">Идейные соображения высшего порядка, а также современная методология
+                            разработки
+                            играет важную роль в формировании глубокомысленных рассуждений. Также как перспективное
+                            планирование
+                            играет определяющее значение для новых принципов формирования материально-технической и
+                            кадровой
+                            базы.</p>
+                    </div> <a class="event-link" href="">Подробнее</a>
+                </div>
+            </div>
+            <div class="btn1">
+                <button class="event-btn">Все события</button>
+            </div>
+            <div class="hidden-event">
+                <div class="flex">
+                    <div>
+                        <div class="events-box">
+                            <div class="events-box-foto4"></div>
+                            <p class="transparent alain">Третьяковка на Крымском валу<br>
+                                с 30 марта по 30 апреля</p>
+                            <p class="event-header">XXIV Международная биеннале молодого искусства</p>
+                            <p class="event-p">Внезапно, реплицированные с зарубежных источников, современные
+                                исследования представляют собой не что иное, как квинтэссенцию победы маркетинга над
+                                разумом и должны быть рассмотрены исключительно в разрезе маркетинговых и финансовых...
+                            </p>
+                        </div> <a class="event-link" href="">Подробнее</a>
+                    </div>
+                    <div>
+                        <div class="events-box">
+                            <div class="events-box-foto5"></div>
+                            <p class="transparent alain">ММАМ<br>
+                                с 8 апреля по 20 мая</p>
+                            <p class="event-header">Джон Винзор. Фотографии из серии «Метафора серебра»</p>
+                            <p class="event-p">Один из ведущих флорентийских художников Кватроченто, основатель
+                                художественной династии, которую продолжили его брат Давид и сын Ридольфо. Глава
+                                художественной мастерской, где юный Микеланджело.</p>
+                        </div> <a class="event-link" href="">Подробнее</a>
+                    </div>
+                    <div>
+                        <div class="events-box">
+                            <div class="events-box-foto4"></div>
+                            <p class="transparent alain">Третьяковка на Крымском валу<br>
+                                с 30 марта по 30 апреля</p>
+                            <p class="event-header">XXIV Международная биеннале молодого искусства</p>
+                            <p class="event-p">Внезапно, реплицированные с зарубежных источников, современные
+                                исследования представляют собой не что иное, как квинтэссенцию победы маркетинга над
+                                разумом и должны быть рассмотрены исключительно в разрезе маркетинговых и финансовых...
+                            </p>
+                        </div> <a class="event-link" href="">Подробнее</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="edition">
+        <div class="news-baner">
+            <div class="container flex">
+                <form class="scene">
+                    <h2 class="h2-over2">Издания</h2>
+                    <p class="p-over2">Категории:</p>
+                    <div class="checkbox">
+                        <input class="custom-checkbox" type="checkbox" id="color-1" name="color-1" value="Динозавры">
+                        <label for="color-1">Бестселлеры</label>
+                    </div>
+                    <div class="checkbox">
+                        <input class="custom-checkbox" type="checkbox" id="color-2" name="color-2" value="Медведи">
+                        <label for="color-2">Искусство</label>
+                    </div>
+                    <div class="checkbox">
+                        <input class="custom-checkbox" type="checkbox" id="color-3" name="color-3" value="Косули">
+                        <label for="color-3">Архитектура</label>
+                    </div>
+                    <div class="checkbox">
+                        <input class="custom-checkbox" type="checkbox" id="color-4" name="color-4" value="Лисы">
+                        <label for="color-4">Дизайн</label>
+                    </div>
+                    <div class="checkbox">
+                        <input class="custom-checkbox" type="checkbox" id="color-5" name="color-5" value="Волки">
+                        <label for="color-5">Мода</label>
+                    </div>
+                    <div class="checkbox">
+                        <input class="custom-checkbox" type="checkbox" id="color-6" name="color-6" value="Олени и лоси">
+                        <label for="color-6">Детям</label>
+                    </div>
+                    <div class="checkbox">
+                        <input class="custom-checkbox" type="checkbox" id="color-7" name="color-7" value="Динозавры">
+                        <label for="color-7">Художественная литература</label>
+                    </div>
+                    <div class="checkbox">
+                        <input class="custom-checkbox" type="checkbox" id="color-8" name="color-8" value="Медведи">
+                        <label for="color-8">Публицистика</label>
+                    </div>
+                    <div class="checkbox">
+                        <input class="custom-checkbox" type="checkbox" id="color-9" name="color-9" value="Косули">
+                        <label for="color-9">Путеводители</label>
+                    </div>
+                    <div class="checkbox">
+                        <input class="custom-checkbox" type="checkbox" id="color-10" name="color-10" value="Философия">
+                        <label for="color-10">Философия</label>
+                    </div>
+                    <div class="checkbox">
+                        <input class="custom-checkbox" type="checkbox" id="color-11" name="color-11" value="Волки">
+                        <label for="color-11">Учебная литература</label>
+                    </div>
+                    <div class="checkbox">
+                        <input class="custom-checkbox" type="checkbox" id="color-12" name="color-12"
+                            value="Олени и лоси">
+                        <label for="color-12">Журналы и газеты</label>
+                    </div>
+                    <p class="p-over2 marg">Цена</p>
+                    <div class="prices">
+                        <label class="price" for="">От</label><input class="price-number" type="number"
+                            placeholder="50">
+                        <label class="price" for="">до</label>
+                        <input class="price-number" type="number" placeholder="25000">
+                        <label class="price" for="">рублей</label>
+                    </div>
+                </form>
+                <div class="news-card">
+                    <div class="news-card-foto news-foto"></div>
+                    <p class="p-over2">Искусство цвета</p>
+                    <p class="p-over-reg">Иттен, Иоханнес </p>
+                    <button class="news-btn">Заказать</button>
+                    <span class="news-span numbers-3">620 руб</span>
+                </div>
+                <div class="news-card">
+                    <div class="news-card-foto news-foto2"></div>
+                    <p class="p-over2">Типографика</p>
+                    <p class="p-over-reg">Рудер, Эмиль </p>
+                    <button class="news-btn">Заказать</button>
+                    <span class="news-span ">2 450 руб</span>
+                </div>
+                <div class="news-card">
+                    <div class="news-card-foto news-foto3"></div>
+                    <p class="p-over2">Искусство цвета</p>
+                    <p class="p-over-reg">Иттен, Иоханнес </p>
+                    <button class="news-btn">Заказать</button>
+
+                    <span class="news-span ">2 200 руб</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="projects">
+        <div class="container">
+            <h2>Проекты</h2>
+            <p class="text-p indent">Предварительные выводы: постоянное информационно-пропагандистское обеспечение нашей
+                деятельности однозначно фиксирует необходимость своевременного выполнения сверхзадачи. А ещё независимые
+                государства смешаны с не уникальными данными до степени совершенной неузнаваемости, из-за чего
+                возрастает их статус бесполезности. Прежде всего, постоянное <br>
+                информационно-пропагандистское&ensp;&ensp; <span class="tooltip-icon namber1"></span><span
+                    class="popap1">Пример современных тенденций - современная методология разработки </span> обеспечение
+                нашей деятельности однозначно фиксирует необходимость экономической целесообразности принимаемых
+                решений. И нет сомнений, что действия представителей оппозиции могут быть рассмотрены исключительно в
+                разрезе маркетинговых и финансовых предпосылок. Банальные, но неопровержимые выводы, а также
+                <br>представители современных социальных резервов призывают нас к новым свершениям, которые, в свою
+                очередь, должны быть смешаны с не уникальными данными до степени совершенной неузнаваемости.
+                Подробнее:<a class="link" target="_blank"
+                    href="https://blanchard-art.ru/projects/about">blanchard-art.ru/projects/about</a>
+            </p>
+            <p class="event-header">Партнёры проектов:</p>
+            <div class="event-slaider">
+                <div class="sl-box sl-img1"></div>
+                <div class="sl-box sl-img2"></div>
+                <div class="sl-box sl-img3"></div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container" id="contacts">
+            <h2>Контакты</h2>
+        </div>
+    </section>
+    <div class="mymap" id="map" style="width: 1920px; height: 700px; margin-top: 30px;">
+    </div>
+    <div class="address">
+        <p class="event-header">Партнёры проектов:</p>
+        <p class="text-address">Леонтьевский переулок, дом 5, строение 1</p>
+        <p class="text-address-h2">Заказать обратный звонок</p>
+        <form id="form" class="form-addres" action="https://jsonplaceholder.typicode.com/posts" autocomplete="on"
+            method="POST">
+            <input class="input-address" type="text" name="name" placeholder="Имя*" data-validate-field="name">
+            <input class="input-address" type="tel" name="tel" placeholder="Телефон*" data-validate-field="tel"
+                data-validate-rules="phone">
+            <button class="btn-address">Заказать</button>
+        </form>
+        <p class="text-address-h2">Связаться в один клик</p>
+        <div class="flex">
+            <a href="https://web.whatsapp.com/" target="_blunk" class="whatsapp-icon"></a>
+            <a href="https://web.telegram.org" target="_blunk" class="telegram-icon"></a>
+        </div>
+    </div>
+    <footer class="foter-content">
+        <div class="container">
+            <div class="flex">
+            <a href="/">
+                <img src="img/logo.svg" alt="logo">
+            </a>
+            <ul class="soc">
+                <a href="https://vk.com" target="_blank">
+                    <div class="soc-box vk"></div>
+                </a>
+                <a href="https://www.instagram.com" target="_blank">
+                    <div class="soc-box inst"></div>
+                </a>
+                <a href="https://www.facebook.com" target="_blank">
+                    <div class="soc-box fb"></div>
+                </a>
+            </ul>
+        </div>
+        </div>
+    </footer>
+    <script src="choices.min.js"></script>
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=ваш API-ключ&lang=ru_RU" type="text/javascript">
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <script src="choices.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/simplebar@latest/dist/simplebar.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
