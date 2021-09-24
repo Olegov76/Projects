@@ -5,7 +5,7 @@ const cleanCSS = require('gulp-clean-css');
 const uglify = require('gulp-uglify-es').default;
 const del = require('del');
 const browserSync = require('browser-sync').create();
-const sass = require('gulp-sass')(require('sass'));
+const sass = require('gulp-sass');
 const svgSprite = require('gulp-svg-sprite');
 const fileInclude = require('gulp-file-include');
 const sourcemaps = require('gulp-sourcemaps');
@@ -66,7 +66,7 @@ const scripts = () => {
 		.pipe(gulpif(isProd, uglify().on("error", notify.onError())))
 		.pipe(dest('./app/js/'))
   return src(
-    ['./src/js/global.js', './src/js/components/**.js', './src/js/main.js'])
+    ['./src/js/functions/**.js', './src/js/components/**.js', './src/js/main.js'])
     .pipe(gulpif(!isProd, sourcemaps.init()))
 		.pipe(babel({
 			presets: ['@babel/env']
